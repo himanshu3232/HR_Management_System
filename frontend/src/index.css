@@ -1,0 +1,570 @@
+body {
+    background-image: url("https://images.pexels.com/photos/27790842/pexels-photo-27790842/free-photo-of-3d-shapes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image on the page */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+
+/* Section styling */
+section#leave-management {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section#leave-management h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styling */
+form#leaveForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#leaveForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form#leaveForm input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form#leaveForm button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form#leaveForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Leave list styling */
+div#leaveList {
+    margin-top: 20px;
+}
+
+div#leaveList p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: 	#D8BFD8;
+    background-image: url("");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #9F2B68;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #C3B1E1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hero section styling */
+.hero {
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 50px 20px;
+}
+
+
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+/* Features section styling */
+#features {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#features h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#features p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features ul li {
+    margin-bottom: 15px;
+}
+
+#features ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#features ul li a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+/* Employee Management section styling */
+#employee-management {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#employee-management h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form#employeeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#employeeForm input[type="text"],
+form#employeeForm input[type="number"],
+form#employeeForm input[type="file"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form#employeeForm input[type="text"]:focus,
+form#employeeForm input[type="number"]:focus,
+form#employeeForm input[type="file"]:focus {
+    border-color: #666;
+    outline: none;
+}
+
+/* Button styling with hover effect */
+form#employeeForm button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form#employeeForm button:hover {
+    background-color: #555;
+}
+
+/* Employee list styling */
+#employeeList {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.employee-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employee-info h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.employee-info p {
+    color: #666;
+    font-size: 1em;
+}
+/* Attendance Tracking section styling */
+#attendance-tracking {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#attendance-tracking h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Attendance controls */
+.attendance-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.circular-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.circular-button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Attendance summary */
+.attendance-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Attendance status details */
+#attendanceSummary {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#attendanceSummary p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+#attendanceSummary span {
+    font-weight: bold;
+    color: #333;
+}
+/* Payroll Processing section styling */
+#payroll-processing {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#payroll-processing h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form#payrollForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#payrollForm input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form#payrollForm input[type="number"]:focus {
+    border-color: #666;
+    outline: none;
+}
+
+/* Button styling */
+form#payrollForm button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form#payrollForm button:hover {
+    background-color: #555;
+}
+
+/* Payslip summary styling */
+.payroll-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #666;
+    text-align: left;
+}
+
+.payroll-summary p {
+    margin: 10px 0;
+}
+
+.payroll-summary span {
+    font-weight: bold;
+    color: #333;
+}
+/* Performance Management section styling */
+#performance-management {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#performance-management h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form#performanceForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#performanceForm input[type="number"],
+form#performanceForm input[type="text"],
+form#performanceForm textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form#performanceForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form#performanceForm input[type="number"]:focus,
+form#performanceForm input[type="text"]:focus,
+form#performanceForm textarea:focus {
+    border-color: #666;
+    outline: none;
+}
+
+/* Button styling */
+form#performanceForm button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form#performanceForm button:hover {
+    background-color: #555;
+}
+
+/* Performance summary styling */
+.performance-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #666;
+    text-align: left;
+}
+
+.performance-summary p {
+    margin: 10px 0;
+}
+
+.performance-summary span {
+    font-weight: bold;
+    color: #333;
+}
+/* Contact Us section styling */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form#contactForm input[type="text"],
+form#contactForm input[type="email"],
+form#contactForm textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form#contactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form#contactForm input[type="text"]:focus,
+form#contactForm input[type="email"]:focus,
+form#contactForm textarea:focus {
+    border-color: #666;
+    outline: none;
+}
+
+/* Button styling */
+form#contactForm button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form#contactForm button:hover {
+    background-color: #555;
+}
